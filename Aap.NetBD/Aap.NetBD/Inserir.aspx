@@ -7,13 +7,22 @@
         <h2>Cadastro de Cliente</h2>
     </div>
     <div class="row" style="margin-top: 15px">
-
-        <div class="col-md-12">
+        <div class="col-md-9">
             <label>Nome:</label>
             <asp:RequiredFieldValidator ID="rfvNome" ControlToValidate="txtNome"
                 ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
             <asp:TextBox ID="txtNome" runat="server" MaxLength="100"
                 CssClass="form-control"></asp:TextBox>
+        </div>
+        <div class="col-md-3">
+            <label>Informe seu Sexo:</label>
+            <asp:RequiredFieldValidator ID="rfvSexo" ControlToValidate="ddlSexo"
+                ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
+            <asp:DropDownList ID="ddlSexo" runat="server" CssClass="form-control">
+                <asp:ListItem Value="">Escolha um Genero</asp:ListItem>
+                <asp:ListItem Value="F">Feminino</asp:ListItem>
+                <asp:ListItem Value="M">Masculino</asp:ListItem>
+            </asp:DropDownList>
         </div>
     </div>
 
@@ -69,10 +78,9 @@
         </div>
     </div>
 
-     <div class="row" style="margin-top: 15px">
+    <div class="row" style="margin-top: 15px">
         <div class="text-rigth col-md-12">
             <asp:Label ID="lblResultado" CssClass="text-sucess" runat="server"></asp:Label>
         </div>
     </div>
-
 </asp:Content>
