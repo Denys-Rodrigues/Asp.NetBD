@@ -39,7 +39,8 @@ namespace Aap.NetBD
                 Conexao.Conectar();
 
                 cmd.ExecuteNonQuery();
-                lblResultado.Text = "Cliente Inserido";
+                Response.Redirect("Listar.aspx");
+                //lblResultado.Text = "Cliente Inserido";
             }
             catch (Exception ex)
             {
