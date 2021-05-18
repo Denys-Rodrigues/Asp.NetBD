@@ -93,6 +93,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Detalhes.aspx" />
+    <Content Include="Editar.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Img\bd.png" />
     <Content Include="Inserir.aspx" />
@@ -217,6 +218,13 @@
     </Compile>
     <Compile Include="Detalhes.aspx.designer.cs">
       <DependentUpon>Detalhes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Editar.aspx.cs">
+      <DependentUpon>Editar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Editar.aspx.designer.cs">
+      <DependentUpon>Editar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
