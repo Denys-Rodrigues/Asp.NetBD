@@ -11,17 +11,17 @@ namespace Aap.NetBD
 {
 
 
-    public partial class Inserir
+    public partial class Detalhes
     {
 
         /// <summary>
-        /// Controle rfvNome.
+        /// Controle txtID.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNome;
+        protected global::System.Web.UI.WebControls.TextBox txtID;
 
         /// <summary>
         /// Controle txtNome.
@@ -33,15 +33,6 @@ namespace Aap.NetBD
         protected global::System.Web.UI.WebControls.TextBox txtNome;
 
         /// <summary>
-        /// Controle rfvLogradouro.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvLogradouro;
-
-        /// <summary>
         /// Controle txtLogradouro.
         /// </summary>
         /// <remarks>
@@ -49,15 +40,6 @@ namespace Aap.NetBD
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtLogradouro;
-
-        /// <summary>
-        /// Controle rfvNumero.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNumero;
 
         /// <summary>
         /// Controle txtNumero.
@@ -78,15 +60,6 @@ namespace Aap.NetBD
         protected global::System.Web.UI.WebControls.TextBox txtComplemento;
 
         /// <summary>
-        /// Controle rfvBairro.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvBairro;
-
-        /// <summary>
         /// Controle txtBairro.
         /// </summary>
         /// <remarks>
@@ -94,15 +67,6 @@ namespace Aap.NetBD
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtBairro;
-
-        /// <summary>
-        /// Controle rfvCidade.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvCidade;
 
         /// <summary>
         /// Controle txtCidade.
@@ -114,15 +78,6 @@ namespace Aap.NetBD
         protected global::System.Web.UI.WebControls.TextBox txtCidade;
 
         /// <summary>
-        /// Controle rfvEstado.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvEstado;
-
-        /// <summary>
         /// Controle txtUF.
         /// </summary>
         /// <remarks>
@@ -130,23 +85,5 @@ namespace Aap.NetBD
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtUF;
-
-        /// <summary>
-        /// Controle btnSalvar.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSalvar;
-
-        /// <summary>
-        /// Controle lblResultado.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResultado;
     }
 }

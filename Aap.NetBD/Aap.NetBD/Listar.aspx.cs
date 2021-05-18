@@ -19,7 +19,7 @@ namespace Aap.NetBD
         private void CarregarClientes()
         {
             string query = @"select cli_id, cli_nome
-                             from client";
+                             from cliente";
             DataTable dt = new DataTable();
             try
             {

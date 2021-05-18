@@ -7,14 +7,14 @@
         <h2>Cadastro de Cliente</h2>
     </div>
     <div class="row" style="margin-top: 15px">
-        <div class="col-md-9">
+        <div class="col-md-12">
             <label>Nome:</label>
             <asp:RequiredFieldValidator ID="rfvNome" ControlToValidate="txtNome"
                 ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
             <asp:TextBox ID="txtNome" runat="server" MaxLength="100"
                 CssClass="form-control"></asp:TextBox>
         </div>
-        <div class="col-md-3">
+<%--        <div class="col-md-3">
             <label>Informe seu Sexo:</label>
             <asp:RequiredFieldValidator ID="rfvSexo" ControlToValidate="ddlSexo"
                 ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
@@ -23,7 +23,7 @@
                 <asp:ListItem Value="F">Feminino</asp:ListItem>
                 <asp:ListItem Value="M">Masculino</asp:ListItem>
             </asp:DropDownList>
-        </div>
+        </div>--%>
     </div>
 
     <div class="row" style="margin-top: 15px">
