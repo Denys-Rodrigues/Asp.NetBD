@@ -127,5 +127,10 @@ namespace Aap.NetBD
             }
         }
         #endregion
+
+        protected void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Listar.aspx");
+        }
     }
 }

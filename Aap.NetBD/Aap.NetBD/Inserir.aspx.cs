@@ -52,5 +52,10 @@ namespace Aap.NetBD
                 Conexao.Desconectar();
             }
         }
+
+        protected void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Listar.aspx");
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Editar.aspx.cs" Inherits="Aap.NetBD.Editar" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -47,10 +48,12 @@
         </div>
     </div>
 
-        <div class="row" style="margin-top: 15px">
+    <div class="row" style="margin-top: 15px">
         <div class="text-right col-md-12">
-            <asp:Button ID="btnAlterar" CssClass="btn btn-primary" runat="server" Text="Alterar" OnClick="btnAlterar_Click" />
-        </div>
+                <asp:Button ID="btnVoltar" CssClass="btn btn-primary" runat="server"
+                    Text="Voltar" OnClick="btnVoltar_Click" />
+                <asp:Button ID="btnAlterar" CssClass="btn btn-primary" runat="server" Text="Alterar" OnClick="btnAlterar_Click" />
+            </div>
     </div>
     <div class="row" style="margin-top: 15px">
         <div class="text-rigth col-md-12">

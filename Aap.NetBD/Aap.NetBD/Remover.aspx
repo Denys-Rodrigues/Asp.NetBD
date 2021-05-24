@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Remover.aspx.cs" Inherits="Aap.NetBD.Remover" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -53,8 +54,10 @@
         </div>
         <div class="row" style="margin-top: 15px">
             <div class="col-md-12 text-right">
+                <asp:Button ID="btnVoltar" CssClass="btn btn-primary" runat="server"
+                    Text="Voltar" OnClick="btnVoltar_Click"/>
                 <asp:Button ID="btnRemover" CssClass="btn btn-danger" runat="server"
-                    text="Apagar" OnClick="btnRemover_Click" />
+                    Text="Apagar" OnClick="btnRemover_Click" />
             </div>
         </div>
     </div>

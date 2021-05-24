@@ -14,7 +14,7 @@
             <asp:TextBox ID="txtNome" runat="server" MaxLength="100"
                 CssClass="form-control"></asp:TextBox>
         </div>
-<%--        <div class="col-md-3">
+        <%--        <div class="col-md-3">
             <label>Informe seu Sexo:</label>
             <asp:RequiredFieldValidator ID="rfvSexo" ControlToValidate="ddlSexo"
                 ErrorMessage="*" ForeColor="Red" runat="server"></asp:RequiredFieldValidator>
@@ -74,10 +74,12 @@
 
     <div class="row" style="margin-top: 15px">
         <div class="text-right col-md-12">
-            <asp:Button ID="btnSalvar" CssClass="btn btn-primary" runat="server" Text="Salvar" OnClick="btnSalvar_Click" />
-        </div>
+            <div class="col-md-12 text-right">
+                <asp:Button ID="btnVoltar" CssClass="btn btn-primary" runat="server"
+                    Text="Voltar" OnClick="btnVoltar_Click" />
+                <asp:Button ID="btnSalvar" CssClass="btn btn-primary" runat="server" Text="Salvar" OnClick="btnSalvar_Click" />
+            </div>
     </div>
-
     <div class="row" style="margin-top: 15px">
         <div class="text-rigth col-md-12">
             <asp:Label ID="lblResultado" CssClass="text-sucess" runat="server"></asp:Label>
